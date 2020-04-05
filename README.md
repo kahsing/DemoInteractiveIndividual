@@ -25,3 +25,5 @@ Click the route and navigate to Screen.
 [Optional] Adjust {PORT} Number (Please be consistant to the PORT from interactive_screen_server)
 
 [NoChangeRequired] {NAMESPACE}
+
+![](interactive_screen.gif)
