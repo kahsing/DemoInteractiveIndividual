@@ -1,0 +1,129 @@
+.parent {
+  /* position: relative; */
+  background-color: black;
+}
+.child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.imgClass {
+  height: 100vh;
+  width: 100vw;
+}
+
+.portrait {
+  height: 80px;
+  width: 30px;
+}
+
+.landscape {
+  height: 30px;
+  width: 80px;
+}
+
+.square {
+  height: 500px;
+  width: 500px;
+}
+
+.sidebar_ori {
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+  width: 80px;
+  background: white;
+  font-size: 15px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.sidebar {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: white;
+  font-size: 15px;
+  text-align: center;
+  z-index: 100;
+}
+
+.sidebar a {
+  margin: 5px;
+  cursor: pointer;
+  right: 0;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  color: #a0a0a0;
+  z-index: 100;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mainContent {
+  /* right: 0;
+  position: absolute; */
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  font-size: 15px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.ant-avatar {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 3em !important;
+}
+
+.middle .ant-form-item-control {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar .ant-form-item {
+  margin: 0;
+}
+
+.sidebar .ant-form-item-control {
+  line-height: 29px;
+}
+
+.class {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.emojiScreen {
+  font-size: 30px;
+}
